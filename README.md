@@ -21,6 +21,8 @@ Each section progresses from core SQL foundations into compliance- and audit-ali
 - `datasets/` — Small synthetic datasets for example queries
 - `docs/` — Reference notes and diagrams
 
+The folder structure loosely follows a SQL learning progression, with increasing emphasis on performance, auditability, and Microsoft Purview / Entra reporting scenarios.
+
 ---
 
 ## Audience
