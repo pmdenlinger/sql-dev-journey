@@ -8,20 +8,21 @@ This repository demonstrates SQL techniques used to support eDiscovery, audit, r
 
 ## How to Use This Repo
 
-Each section progresses from core SQL foundations into compliance- and audit-aligned use cases. Scripts are written with **defensibility, traceability, and performance** in mind.
+Each section progresses from core SQL foundations into compliance- and audit-aligned use cases. Scripts are written with **defensibility, traceability, and performance** in mind, reflecting real-world legal and regulatory review standards.
+``
 
 ---
 
 ## Folder Overview
 
-- `01-foundations/` — Data modeling, normalization, indexing basics
-- `02-performance/` — Query plans, statistics, and large-log performance
+> Note: The numbered folders represent the planned learning progression. Initial scaffolding (`notebooks/`, `scripts/`, `src/`) is already in place and will be organized into these sections as content is added.
+
+- `01-foundations/` — Data modeling, normalization, and indexing basics
+- `02-performance/` — Query plans, statistics, and large-scale log performance
 - `03-compliance-audit/` — Audit log schemas and chain-of-custody reporting
 - `04-purview-entra-integration/` — eDiscovery and Entra governance reporting
 - `datasets/` — Small synthetic datasets for example queries
 - `docs/` — Reference notes and diagrams
-
-The folder structure loosely follows a SQL learning progression, with increasing emphasis on performance, auditability, and Microsoft Purview / Entra reporting scenarios.
 
 ---
 
