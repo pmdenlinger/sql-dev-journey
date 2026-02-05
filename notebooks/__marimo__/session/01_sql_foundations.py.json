@@ -1,0 +1,53 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.17.6"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "sIqv",
+      "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ShzV",
+      "code_hash": "d8773336f84be844f8dfe13d70d00909",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"sql-foundations\">SQL Foundations</h3>\n<span class=\"paragraph\">This notebook establishes foundational SQL concepts using an existing SQLite database. The goal is to develop fluency in exploring schemas, writing clear queries, and interpreting results.</span>\n<span class=\"paragraph\">The progression of topics reflects widely accepted SQL fundamentals commonly introduced in introductory SQL literature. The database is used as-is to establish baseline query patterns; all queries, commentary, and interpretations are original and adapted for legal, audit, and compliance reporting contexts.</span>\n<span class=\"paragraph\">The database is treated as an external system under review, reflecting common real\u2011world scenarios in audit and compliance analysis.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "yWpf",
+      "code_hash": "637dd5e0e2fbbfeecb3c89b4a4bcd61a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"next-steps\">Next Steps</h3>\n<span class=\"paragraph\">This notebook establishes foundational SQL query patterns and schema reasoning.</span>\n<span class=\"paragraph\">Subsequent sections build on this foundation by introducing:</span>\n<ul>\n<li>Performance considerations and query planning</li>\n<li>Large\u2011scale audit and log datasets</li>\n<li>Compliance, defensibility, and Microsoft Purview / Entra reporting scenarios</li>\n</ul></span>"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}
