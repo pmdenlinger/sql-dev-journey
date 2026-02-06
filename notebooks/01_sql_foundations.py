@@ -29,6 +29,41 @@ def _(mo):
     return
 
 
+@app.cell
+def _(DB_PATH, mo, result):
+    _df = mo.sql(
+        f"""
+        # --- Environment & SQLite connection (read-only) ---
+        # --- Database treated as an external system under review ---
+
+        import sqlite3
+        from pathlib import Path
+
+        # Path to the external SQLite database (not versioned)
+        DB_PATH = Path("data/raw/sTunes.db")
+
+        # Defensive check: ensure the DB exists
+        assert DB_PATH.exists(), f"Database not found at: {DB_PATH.resolve()}"
+
+        # Open a read-only SQLite connection
+        conn = sqlite3.connect(
+            f"file:{DB_PATH.as_posix()}?mode=ro",
+            uri=True
+        )
+
+        # Enable name-based column access (useful later)
+        conn.row_factory = sqlite3.Row
+
+        # Sanity check: verify database integrity
+        result = conn.execute("PRAGMA integrity_check;").fetchone()[0]
+        assert result == "ok", f"SQLite integrity check failed: {result}"
+
+        result  # Should display 'ok'
+        """
+    )
+    return
+
+
 @app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
