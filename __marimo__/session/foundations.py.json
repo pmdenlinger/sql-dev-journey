@@ -1,0 +1,60 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.17.6"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "e34324c95e21c261577cee4e0e827b1d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "pbwG",
+      "code_hash": "90db680c7b5c65ee9ac7fcbedd782f4e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "qkIX",
+      "code_hash": "48ad5b98c8074f9bd546064b033002b4",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='qkIX-0' random-id='fd578a29-88dc-c38c-d74c-be80e9f48168'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;database_name&#92;&quot;:&#92;&quot;memory&#92;&quot;},{&#92;&quot;database_name&#92;&quot;:&#92;&quot;sqlite_db&#92;&quot;}]&quot;' data-total-rows='2' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;database_name&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ZhWW",
+      "code_hash": "79fdad81c16463eaccc3f530bf00f941",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='ZhWW-0' random-id='2650972a-c0fd-779a-395c-6d9a0dd133f3'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;schema_name&#92;&quot;:&#92;&quot;main&#92;&quot;,&#92;&quot;table_name&#92;&quot;:&#92;&quot;albums&#92;&quot;},{&#92;&quot;schema_name&#92;&quot;:&#92;&quot;main&#92;&quot;,&#92;&quot;table_name&#92;&quot;:&#92;&quot;sqlite_sequence&#92;&quot;},{&#92;&quot;schema_name&#92;&quot;:&#92;&quot;main&#92;&quot;,&#92;&quot;table_name&#92;&quot;:&#92;&quot;artists&#92;&quot;},{&#92;&quot;schema_name&#92;&quot;:&#92;&quot;main&#92;&quot;,&#92;&quot;table_name&#92;&quot;:&#92;&quot;customers&#92;&quot;},{&#92;&quot;schema_name&#92;&quot;:&#92;&quot;main&#92;&quot;,&#92;&quot;table_name&#92;&quot;:&#92;&quot;employees&#92;&quot;},{&#92;&quot;schema_name&#92;&quot;:&#92;&quot;main&#92;&quot;,&#92;&quot;table_name&#92;&quot;:&#92;&quot;genres&#92;&quot;},{&#92;&quot;schema_name&#92;&quot;:&#92;&quot;main&#92;&quot;,&#92;&quot;table_name&#92;&quot;:&#92;&quot;invoices&#92;&quot;},{&#92;&quot;schema_name&#92;&quot;:&#92;&quot;main&#92;&quot;,&#92;&quot;table_name&#92;&quot;:&#92;&quot;invoice_items&#92;&quot;},{&#92;&quot;schema_name&#92;&quot;:&#92;&quot;main&#92;&quot;,&#92;&quot;table_name&#92;&quot;:&#92;&quot;media_types&#92;&quot;},{&#92;&quot;schema_name&#92;&quot;:&#92;&quot;main&#92;&quot;,&#92;&quot;table_name&#92;&quot;:&#92;&quot;playlists&#92;&quot;}]&quot;' data-total-rows='13' data-total-columns='2' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;schema_name&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;table_name&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}
